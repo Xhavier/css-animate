@@ -1,0 +1,14 @@
+@keyframes thomasthetankengine {
+		0% {transform: rotate(0deg);}
+		20% {transform: rotate(360deg);}
+		40% {transform: skew(0deg);}
+		60% {transform: skew(81deg);}
+		80% {transform: skew(0deg);}
+		100% {transform: skew(-81deg);}
+	}
+
+#animate {
+	animation-name: thomasthetankengine;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
